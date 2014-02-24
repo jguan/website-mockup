@@ -1,0 +1,202 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	background:#fff;
+	font: 16px/1.95em "Lucida Grande",Arial,Tahoma,"Trebuchet MS","Lucida Sans Unicode",Verdana,sans-serif;
+	color:#666;
+	border:5px solid #eee;
+}
+
+#header {
+	width:100%;
+	margin:0 auto;
+	padding:20px 0;
+}
+
+ul#nav {
+	background:#3F92D2;
+	font-size:0.9em;
+	border-top:3px solid #0B61A4;
+	border-bottom:3px solid #0B61A4;
+	font-weight:bold;
+}
+
+ul#nav li {
+	display:inline;
+	list-style:none;
+	margin-right:10px;
+}
+
+ul#nav li a {
+	padding:10px 14px;
+	color:#FFF;
+	text-decoration:none;
+}
+
+ul#nav li a:hover {
+	color:#D4D4D4;
+}
+
+ul#nav li a.active {
+	color:#D4D4D4;
+}
+
+ul#nav li#search {
+	color:#FFF;
+	float:right;
+}
+
+input {
+	border:1px solid #000;
+}
+
+input[type="submit"] {
+	color:#FFF;
+	font-weight:bold;
+}
+
+#container {
+	width:95%;
+	margin:0 auto;
+}
+
+#sidebar {
+	float:left;
+	margin-bottom: 50px;
+    width: 25%;
+}
+
+#sidebar ul {
+	list-style:none;
+}
+
+#sidebar ul a {
+	color:#444;
+	font:80% Verdana;
+	text-decoration:none;
+}
+
+#sidebar ul a span {
+	color:#ccc;
+}
+
+#sidebar ul a:hover span {
+	color:#333;
+}
+
+#sidebar p {
+	font:80% Verdana;
+	line-height:24px;
+	margin:10px 0 20px 0;
+}
+
+#sidebar ul li {
+	background:#FAFAFA;
+	margin:1px 0 0 0;
+	padding-left:5px;
+}
+
+#sidebar h3 {
+	font:120% Arial;
+	margin:5px 0;
+	color:#222;
+}
+
+#sidebar li li a:link, #sidebar li li a:visited {
+    padding: 0.25em 0 0.25em 35px;
+}
+
+.block {
+    border-bottom: 1px solid #DFDFDF;
+    margin: 50px 0;
+	width: 354px;
+}
+
+div#lang{
+	width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block h2 {
+    background-color: #8C9463;
+    border: medium none;
+    clear: left;
+    color: #FFFFFF;
+    font-size: 1.1666em !important;
+    line-height: 1.4285em !important;
+    padding: 0.25em 10px;
+}
+
+.block #tl {
+	/* use default background-color: #8C9463*/
+}
+
+.block #bl {
+	background-color: #7C08A9 !important;
+}
+
+.block #tr {
+	background-color: #00BB3F !important;
+}
+
+.block #br {
+	background-color: #EA6C26 !important;
+}
+
+.block #lang {
+	background-color: #992667 !important;}
+
+#breadcrumb {
+	width:70%;
+	float:left;
+	margin-left:5%;
+}
+
+#leftcontent {
+	width:30%;
+	float:left;
+	margin-left:5%;
+	margin-bottom:50px;
+}
+
+#rightcontent {
+	width:30%;
+	float:left;
+	margin-left:5%;
+	margin-bottom:50px;
+}
+
+#footer {
+	padding:20px 50px;
+	margin-top:50px;
+	clear:both;
+	border-top:2px solid #eee;
+	font:80% Verdana;
+	line-height:25px;
+}
+
+#footer a {
+	color:#999;
+}
+
+#footer .validate {
+	float:right;
+}
